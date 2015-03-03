@@ -1,9 +1,9 @@
 Ben Hamlin
 ==========
 
-(971)732-6850                |
-<protob3n@gmail.com>         |
-<http://github.com/protoben> |
+(971)732-6850
+<protob3n@gmail.com>
+<http://github.com/protoben>
 
 
 Background
