@@ -1,7 +1,7 @@
 # Ben Hamlin's Resume
 
 ## [HTML](http://cs.pdx.edu/~hamlinb/resume.html)
-## [PDF](https://github.com/protoben/resume/blob/master/resume.pdf)
+## [PDF](http://cs.pdx.edu/~hamlinb/resume.pdf)
 ## [Markdown](https://github.com/protoben/resume/blob/master/resume.md)
 
 This repository uses code flagrantly stolen from Michael White's excellent
