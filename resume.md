@@ -1,9 +1,9 @@
 Ben Hamlin
 ==========
 
-(971)732-6850
-<protob3n@gmail.com>
-<http://github.com/protoben>
+(971)732-6850 |
+<protob3n@gmail.com> |
+<http://github.com/protoben> |
 
 
 Background
@@ -15,8 +15,9 @@ working on involves putting theory into practice.
 
 I've worked as a network administrator and a Unix system administrator. For the
 last two years I've worked for the Portland State University Computer Science
-Tutors, helping people understand aspects of computer science from computational
-structures, to systems programming, to data structures and software engineering.
+Tutors, helping people understand aspects of computer science from systems
+programming, to computational theory, to data structures and software
+engineering.
 
 
 Education
