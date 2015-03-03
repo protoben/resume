@@ -1,8 +1,8 @@
 Ben Hamlin
 ==========
 
-(971)732-6850 |
-<protob3n@gmail.com> |
+(971)732-6850                |
+<protob3n@gmail.com>         |
 <http://github.com/protoben> |
 
 
@@ -63,6 +63,7 @@ Experience
 
      + stuff
      + stuff
+
 
      Network Administrator
 
