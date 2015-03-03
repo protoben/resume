@@ -1,17 +1,36 @@
 CONV=pandoc
-PDFOPTS=-f markdown
-HTMLOPTS=-f markdown -t html
+HTMLFLAGS=-f markdown -t html -c resume.css
+PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H header.tex
 
-NAME=resume
+PP=python resume.py
+PPFLAGS=--no-gravatar
+
+CHMOD=chmod 644
+
+SRCS=resume.md
+PDFS=${SRCS:.md=.pdf}
+HTML=${SRCS:.md=.html}
+LATEX_TEMPLATE=template.tex
 
 all: pdf html
+pdf: ${PDFS}
+html: ${HTML}
 
-pdf: ${NAME}.pdf
+%.html: %.md
+	${PP} html ${PPFLAGS} < $< | ${CONV} ${HTMLFLAGS} -o $@
+	${CHMOD} $@
 
-html: ${NAME}.html
+%.pdf: %.md ${LATEX_TEMPLATE}
+	${PP} tex ${PPFLAGS} < $< | ${CONV} ${PDFFLAGS} -o $@
+	${CHMOD} $@
 
-${NAME}.pdf: ${NAME}.md
-	${CONV} ${PDFOPTS} ${NAME}.md -o ${NAME}.pdf
+ifeq (${OS},Windows_NT)
+  # on Windows
+  RM = cmd //C del
+else
+  # on Unix
+  RM = rm -f
+endif
 
-${NAME}.html: ${NAME}.md
-	${CONV} ${HTMLOPTS} ${NAME}.md -o ${NAME}.html
+clean:
+	${RM} ${HTML} ${PDFS}
