@@ -59,13 +59,12 @@ Experience
 
 *   **PSU Computer Action Team**
 
-     Unix System Administrator
+    Unix System Administrator
 
-     + stuff
-     + stuff
+    + stuff
+    + stuff
 
+    Network Administrator
 
-     Network Administrator
-
-     + stuff
-     + stuff
+    + stuff
+    + stuff
