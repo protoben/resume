@@ -1,6 +1,6 @@
 # Ben Hamlin's Resume
 
-## [HTML](https://github.com/protoben/resume/blob/master/resume.html)
+## [HTML](http://cs.pdx.edu/~hamlinb/resume.html)
 ## [PDF](https://github.com/protoben/resume/blob/master/resume.pdf)
 ## [Markdown](https://github.com/protoben/resume/blob/master/resume.md)
 
