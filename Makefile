@@ -5,24 +5,28 @@ PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H header.tex
 PP=python resume.py
 PPFLAGS=--no-gravatar
 
-CHMOD=chmod 644
-
 SRCS=resume.md
 PDFS=${SRCS:.md=.pdf}
 HTML=${SRCS:.md=.html}
 LATEX_TEMPLATE=template.tex
 
+DATE:=${shell date '+%d-%m-%Y %H:%m'}
+
 all: pdf html
+	git add ${PDFS} ${HTML}
+	git commit -m "Remake pdf/html ${DATE}"
+	git push
+
+nopush: pdf html
+
 pdf: ${PDFS}
 html: ${HTML}
 
 %.html: %.md
 	${PP} html ${PPFLAGS} < $< | ${CONV} ${HTMLFLAGS} -o $@
-	${CHMOD} $@
 
 %.pdf: %.md ${LATEX_TEMPLATE}
 	${PP} tex ${PPFLAGS} < $< | ${CONV} ${PDFFLAGS} -o $@
-	${CHMOD} $@
 
 ifeq (${OS},Windows_NT)
   # on Windows
