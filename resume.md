@@ -1,9 +1,13 @@
-# Ben Hamlin
+Ben Hamlin
+==========
 
-* <a href="mailto://protob3n@gmail.com">protob3n@gmail.com</a>
-* [github.com/protoben](http://github.com/protoben)
+(971)732-6850
+<protob3n@gmail.com>
+<http://github.com/protoben>
 
-## Background
+
+Background
+----------
 
 I am a network and systems programmer. My interests are focused on networking,
 coding theory, cryptography, and packet radio. I'm happiest when the project I'm
@@ -14,21 +18,19 @@ last two years I've worked for the Portland State University Computer Science
 Tutors, helping people understand aspects of computer science from computational
 structures, to systems programming, to data structures and software engineering.
 
-## Education
 
-Computer Science, M.S.    <br/>
-Fall 2013 - Present       <br/>
-Portland State University <br/>
+Education
+---------
 
-Writing, M.A.             <br/>
-Spring 2009 - Summer 2011 <br/>
-Portland State University <br/>
+*   **Portland State University** (Portland, OR)
 
-Linguistics, B.A.         <br/>
-Fall 2003 - Summer 2008   <br/>
-Portland State University <br/>
+    + M.S. in Computer Science, Fall 2013 - Present
+    + M.A. in Writing, Spring 2009 - Summer 2011
+    + B.A. in Linguistics, Fall 2003 - Summer 2008
 
-## Proficiency
+
+Proficiency
+-----------
 
 I have been experimenting with network and systems programming since 2010. I've
 worked on a number of [small projects](http://github.com/protoben) related to
@@ -37,17 +39,31 @@ networking.
 I am most comfortable working in C, but I am also proficient in C++, Java, Bash,
 Erlang, Python, and SQL.
 
-## Experience
 
-### Computer Science Tutor
+Experience
+----------
+
+*   **Portland State University**
+
+    Computer Science Tutor
+
+    + stuff
+    + stuff
+
+    Teaching Assistant
+
+    + stuff
+    + stuff
 
 
+*   **PSU Computer Action Team**
 
-### Teaching Assistant
+     Unix System Administrator
 
-#### CS333 (Operating Systems)
+     + stuff
+     + stuff
 
-### Portland State University Computer Action Team
+     Network Administrator
 
-#### Unix System Administrator
-#### Network Administrator
+     + stuff
+     + stuff
