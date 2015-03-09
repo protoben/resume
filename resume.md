@@ -6,18 +6,11 @@ Ben Hamlin
 <http://github.com/protoben>
 
 
-Background
-----------
+Objective
+---------
 
-I am a network and systems programmer. My interests are focused on networking,
-coding theory, cryptography, and packet radio. I'm happiest when the project I'm
-working on involves putting theory into practice.
-
-I've worked as a network administrator and a Unix system administrator. For the
-last two years I've worked for the Portland State University Computer Science
-Tutors, helping people understand aspects of computer science from systems
-programming, to computational theory, to data structures and software
-engineering.
+To work as a network and systems programmer, putting networking and coding
+theory into practice
 
 
 Education
@@ -25,20 +18,21 @@ Education
 
 *   **Portland State University** (Portland, OR)
 
-    + M.S. in Computer Science, Fall 2013 - Present
-    + M.A. in Writing, Spring 2009 - Summer 2011
-    + B.A. in Linguistics, Fall 2003 - Summer 2008
+    + M.S. in Computer Science, June 2013 - Present
+    + M.A. in Writing, March 2009 - June 2011
+    + B.A. in Linguistics, Summa Cum Laude, September 2003 - June 2008
 
 
-Proficiency
+Background
 -----------
 
-I have been experimenting with network and systems programming since 2010. I've
-worked on a number of [small projects](http://github.com/protoben) related to
-networking.
+* I'm proficient in the following:
+    + C, C++, Java, Bash, Erlang, Python, SQL
+    + Network and systems programming
+    + 802.11 / packet radio
 
-I am most comfortable working in C, but I am also proficient in C++, Java, Bash,
-Erlang, Python, and SQL.
+* I've worked on a number of [small projects](http://github.com/protoben)
+  related to networking, cryptography, coding theory, and packet radio.
 
 
 Experience
@@ -46,25 +40,32 @@ Experience
 
 *   **Portland State University**
 
-    Computer Science Tutor
+    Computer Science Tutor (March 2013 - Present)
 
-    + stuff
-    + stuff
+    + Helped students come up with algorithms and program designs based on
+      written specifications
+    + Debugged students' code
+    + Helped students understand CS topics such as data structures, algorithms,
+      systems programming, theory of computation, and software design
 
-    Teaching Assistant
+    Teaching Assistant (January 2015 - Present)
 
-    + stuff
-    + stuff
+    + Designed labs and wrote documentation on operating systems concepts
+      such as signals, concurrency, locking, and the Unix system call API
+    + Evaluated students' understanding of operating system concepts
 
 
 *   **PSU Computer Action Team**
 
-    Unix System Administrator
+    Unix System Administrator (January 2013 - June 2014)
 
-    + stuff
-    + stuff
+    + Helped administrate a large infrastructure of Ubuntu and Solaris machines
+      using puppet and git
+    + Maintained an OpenVPN instance
 
-    Network Administrator
+    Network Administrator (September 2013 - June 2014)
 
-    + stuff
-    + stuff
+    + Administrated a large infrastructure of IOS and JunOS switches and routers
+    + Maintained a SQL database of network data for a large organization
+
+*References available upon request*
