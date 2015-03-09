@@ -1,7 +1,7 @@
 CONV=pandoc
 HTMLFLAGS=-f markdown -t html -c resume.css
 PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H header.tex \
-	 -V colorlinks=true,linkcolor=red
+	 -V colorlinks=true,linkcolor=magenta
 
 PP=python resume.py
 PPFLAGS=--no-gravatar
