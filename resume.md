@@ -32,7 +32,7 @@ Background
     + 802.11 / packet radio
 
 * I've worked on a number of [small projects](http://github.com/protoben)
-  related to networking, cryptography, coding theory, and packet radio.
+  related to networking, cryptography, coding theory, and packet radio
 
 
 Experience
@@ -59,7 +59,7 @@ Experience
 
     Unix System Administrator (January 2013 - June 2014)
 
-    + Helped administrate a large infrastructure of Ubuntu and Solaris machines
+    + Helped administer a large infrastructure of Ubuntu and Solaris machines
       using puppet and git
     + Maintained an OpenVPN instance
 
