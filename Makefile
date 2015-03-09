@@ -13,10 +13,14 @@ LATEX_TEMPLATE=template.tex
 
 DATE:=${shell date '+%d-%m-%Y %H:%m'}
 
-all: pdf html
+all: pdf html push upload
+
+push: ${SRCS}
 	git add ${SRCS}
 	git commit -m "Contents updated ${DATE}"
 	git push
+
+upload: pdf html
 	scp resume.html resume.css resume.pdf \
 	  hamlinb@cs.pdx.edu:/home/hamlinb/solaris/public_html/
 	ssh hamlinb@cs.pdx.edu chmod 644 \
