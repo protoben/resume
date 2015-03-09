@@ -1,6 +1,7 @@
 CONV=pandoc
 HTMLFLAGS=-f markdown -t html -c resume.css
-PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H header.tex
+PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H header.tex \
+	 -V colorlinks=true,linkcolor=red
 
 PP=python resume.py
 PPFLAGS=--no-gravatar
@@ -13,6 +14,9 @@ LATEX_TEMPLATE=template.tex
 DATE:=${shell date '+%d-%m-%Y %H:%m'}
 
 all: pdf html
+	git add ${SRCS}
+	git commit -m "Contents updated ${DATE}"
+	git push
 	scp resume.html resume.css resume.pdf \
 	  hamlinb@cs.pdx.edu:/home/hamlinb/solaris/public_html/
 	ssh hamlinb@cs.pdx.edu chmod 644 \
