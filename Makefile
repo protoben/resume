@@ -16,9 +16,9 @@ DATE:=${shell date '+%d-%m-%Y %H:%m'}
 all: pdf html push upload
 
 push: ${SRCS}
-	git add ${SRCS}
-	git commit -m "Contents updated ${DATE}"
-	git push
+	-git add ${SRCS}
+	-git commit -m "Contents updated ${DATE}"
+	-git push
 
 upload: pdf html
 	scp resume.html resume.css resume.pdf \
