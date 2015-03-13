@@ -30,8 +30,9 @@ Background
     + Network and systems programming
     + 802.11 / packet radio
 
-* I've worked on a number of [small projects](http://github.com/protoben)
-  related to networking, cryptography, coding theory, and packet radio
+* I've worked on a number of small projects related to networking, cryptography,
+  coding theory, and packet radio. They are available on my
+  [github](http://github.com/protoben).
 
 
 Experience
