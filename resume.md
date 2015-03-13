@@ -9,8 +9,7 @@ Ben Hamlin
 Objective
 ---------
 
-To work as a network and systems programmer, putting networking and coding
-theory into practice
+To work as a network and systems programmer, putting theory into practice.
 
 
 Education
