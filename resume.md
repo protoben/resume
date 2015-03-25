@@ -48,7 +48,7 @@ Experience
     + Helped students understand CS topics such as data structures, algorithms,
       systems programming, theory of computation, and software design
 
-    Teaching Assistant (January 2015 - Present)
+    Operating Systems Lab Assistant (January 2015 - April 2015)
 
     + Designed labs and wrote documentation on operating systems concepts
       such as signals, concurrency, locking, and the Unix system call API
