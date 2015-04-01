@@ -30,6 +30,11 @@ Background
     + Network and systems programming
     + 802.11 / packet radio
 
+* I've done coursework / research projects in the following:
+    + LTE, UMTS, 802.11, PHY
+    + Operating systems, concurrency
+    + JPEG, MPEG4 / H.264
+
 * I've worked on a number of small projects related to networking, cryptography,
   coding theory, and packet radio. They are available on my
   [github](http://github.com/protoben).
