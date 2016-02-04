@@ -9,7 +9,7 @@ Ben Hamlin
 Objective
 ---------
 
-To apply a strong theoretical background to network and systems programming.
+To apply a background in theory to network and systems programming.
 
 
 Education
@@ -25,16 +25,17 @@ Education
 Background
 -----------
 
-* I'm proficient in the following:
+* Proficient in the following:
     + C, C++, assembly (ARM and x86\_64), Go, Haskell, Bash, Git
     + Sockets programming, 802.11 / packet radio
-
-* I've done research projects / coursework in the following:
-    + JPEG, MPEG4 / H.264, SIFT
-    + Linear coding and linear network coding, the Paillier cryptosystem
     + Formal specification and verification of systems (TLA+, PlusCal, etc.)
 
-* I've worked on a number of small projects related to networking, cryptography,
+* Did research projects / coursework in the following:
+    + JPEG, MPEG4 / H.264, SIFT
+    + Linear coding and linear network coding, the Paillier cryptosystem
+    * Computability theory, complexity theory, information theory
+
+* Worked on a number of small projects related to networking, cryptography,
   coding theory, and packet radio. They are available on my
   [github](http://github.com/protoben).
 
@@ -61,8 +62,8 @@ Experience
 
     Computer Science Tutor (March 2013 - April 2015)
 
-    + Helped students come up with algorithms and program designs based on
-      written specifications
+    + Helped students devise algorithms and program designs based on written
+      specifications
     + Debugged students' code
     + Helped students understand CS topics such as data structures, algorithms,
       systems programming, theory of computation, and software design
