@@ -9,7 +9,7 @@ Ben Hamlin
 Objective
 ---------
 
-To work as a network and systems programmer, putting theory into practice.
+To apply a strong theoretical background to network and systems programming.
 
 
 Education
@@ -26,14 +26,13 @@ Background
 -----------
 
 * I'm proficient in the following:
-    + C, C++, Java, Bash, Erlang, Python, SQL
-    + Network and systems programming
-    + 802.11 / packet radio
+    + C, C++, assembly (ARM and x86\_64), Go, Haskell, Bash, Git
+    + Sockets programming, 802.11 / packet radio
 
-* I've done coursework / research projects in the following:
-    + LTE, UMTS, 802.11, PHY
-    + JPEG, MPEG4 / H.264
-    + OpenSSL, implementing cryptosystems using existing primitives
+* I've done research projects / coursework in the following:
+    + JPEG, MPEG4 / H.264, SIFT
+    + Linear coding and linear network coding, the Paillier cryptosystem
+    + Formal specification and verification of systems (TLA+, PlusCal, etc.)
 
 * I've worked on a number of small projects related to networking, cryptography,
   coding theory, and packet radio. They are available on my
@@ -45,7 +44,22 @@ Experience
 
 *   **Portland State University**
 
-    Computer Science Tutor (March 2013 - Present)
+    Computer Science Research Assistant (April 2015 - Present)
+
+    + Helped develop algorithms to improve the performance of multimedia
+      systems software and evaluated their effects
+    + Modified existing open source projects such as OpenCV and JMVC to
+      perform experiments
+    + Wrote academic papers describing new algorithms and performance
+      experiments for submission to conferences
+
+    Operating Systems Teaching Assistant (January 2015 - April 2015)
+
+    + Designed labs and wrote documentation on operating systems concepts
+      such as signals, concurrency, locking, and the Linux system call API
+    + Evaluated students' understanding of operating system concepts
+
+    Computer Science Tutor (March 2013 - April 2015)
 
     + Helped students come up with algorithms and program designs based on
       written specifications
@@ -53,24 +67,15 @@ Experience
     + Helped students understand CS topics such as data structures, algorithms,
       systems programming, theory of computation, and software design
 
-    Operating Systems Lab Assistant (January 2015 - April 2015)
-
-    + Designed labs and wrote documentation on operating systems concepts
-      such as signals, concurrency, locking, and the Unix system call API
-    + Evaluated students' understanding of operating system concepts
-
 
 *   **PSU Computer Action Team**
 
-    Unix System Administrator (January 2013 - June 2014)
+    Network / System Administrator (September 2013 - June 2014)
 
-    + Helped administer a large infrastructure of Ubuntu and Solaris machines
-      using puppet and git
+    + Helped administrate a large infrastructure of IOS and JunOS switches and
+      routers
     + Maintained an OpenVPN instance
-
-    Network Administrator (September 2013 - June 2014)
-
-    + Administrated a large infrastructure of IOS and JunOS switches and routers
-    + Maintained a SQL database of network data for a large organization
+    + Helped administrate a large infrastructure of Ubuntu and Solaris machines
+      using puppet and git
 
 *References available upon request*
