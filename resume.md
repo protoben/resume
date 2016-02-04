@@ -65,8 +65,9 @@ Experience
     + Helped students devise algorithms and program designs based on written
       specifications
     + Debugged students' code
-    + Helped students understand CS topics such as data structures, algorithms,
-      systems programming, theory of computation, and software design
+    + Helped students understand computer science topics such as data
+      structures, algorithms, systems programming, theory of computation, and
+      software design
 
 
 *   **PSU Computer Action Team**
