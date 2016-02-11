@@ -1,7 +1,7 @@
 CONV=pandoc
 HTMLFLAGS=-f markdown -t html -c resume.css
-PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H header.tex \
-	 -V colorlinks=true,linkcolor=magenta
+PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H ${LATEX_HEADER} \
+	 -V colorlinks=true -V linkcolor=magenta
 
 PP=python resume.py
 PPFLAGS=--no-gravatar
@@ -10,6 +10,7 @@ SRCS=resume.md
 PDFS=${SRCS:.md=.pdf}
 HTML=${SRCS:.md=.html}
 LATEX_TEMPLATE=template.tex
+LATEX_HEADER=header.tex
 
 DATE:=${shell date '+%d-%m-%Y %H:%m'}
 
@@ -33,7 +34,7 @@ html: ${HTML}
 %.html: %.md
 	${PP} html ${PPFLAGS} < $< | ${CONV} ${HTMLFLAGS} -o $@
 
-%.pdf: %.md ${LATEX_TEMPLATE}
+%.pdf: %.md ${LATEX_TEMPLATE} ${LATEX_HEADER}
 	${PP} tex ${PPFLAGS} < $< | ${CONV} ${PDFFLAGS} -o $@
 
 ifeq (${OS},Windows_NT)
