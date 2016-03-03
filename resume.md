@@ -2,6 +2,7 @@ Ben Hamlin
 ==========
 
 (971)732-6850
+<hamlinb@cs.pdx.edu>
 <protob3n@gmail.com>
 <http://github.com/protoben>
 
