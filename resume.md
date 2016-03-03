@@ -26,9 +26,9 @@ Background
 -----------
 
 * Proficient in the following:
-    + C, C++, assembly (ARM and x86\_64), Go, Haskell, Bash, Git
+    + C, C++, assembly (ARM and x86\_64), Haskell, Git
     + Sockets programming, 802.11 / packet radio
-    + Formal specification and verification of systems (TLA+, PlusCal, etc.)
+    + Formal specification and verification of systems (TLA+, Dafny, etc.)
 
 * Did research projects / coursework in the following:
     + JPEG, MPEG4 / H.264, SIFT
