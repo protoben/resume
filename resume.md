@@ -19,6 +19,7 @@ Education
 *   **Portland State University** (Portland, OR)
 
     + M.S. in Computer Science, June 2013 - Present
+    + M.A. in Writing, March 2009 - June 2011
     + B.A. in Linguistics, Summa Cum Laude, September 2003 - June 2008
 
 
