@@ -4,7 +4,7 @@ Ben Hamlin
 (971)732-6850
 <hamlinb@cs.pdx.edu>
 <protob3n@gmail.com>
-<http://github.com/protoben>
+<https://github.com/protoben>
 
 
 Objective
@@ -19,7 +19,6 @@ Education
 *   **Portland State University** (Portland, OR)
 
     + M.S. in Computer Science, June 2013 - Present
-    + M.A. in Writing, March 2009 - June 2011
     + B.A. in Linguistics, Summa Cum Laude, September 2003 - June 2008
 
 
@@ -29,7 +28,7 @@ Background
 * Proficient in the following:
     + C, C++, assembly (ARM and x86\_64), Haskell, Git
     + Sockets programming, 802.11 / packet radio
-    + Formal specification and verification of systems (TLA+, Dafny, etc.)
+    + Formal specification and verification of systems (TLA+, Dafny, f\*, etc.)
 
 * Did research projects / coursework in the following:
     + JPEG, MPEG4 / H.264, SIFT
@@ -38,7 +37,7 @@ Background
 
 * Worked on a number of small projects related to networking, cryptography,
   coding theory, and packet radio. They are available on my
-  [github](http://github.com/protoben).
+  [github](https://github.com/protoben).
 
 
 Experience
@@ -48,24 +47,26 @@ Experience
 
     Computer Science Research Assistant (April 2015 - Present)
 
-    + Helped develop algorithms to improve the performance of multimedia
-      systems software and evaluated their effects
+    + Helped develop and evaluate algorithms to improve the performance of
+      multimedia systems software
     + Modified existing open source projects such as OpenCV and JMVC to
       perform experiments
     + Wrote academic papers describing new algorithms and performance
       experiments for submission to conferences
+    + Maintained Git repositories for collaborative projects
 
     Operating Systems Teaching Assistant (January 2015 - April 2015)
 
     + Designed labs and wrote documentation on operating systems concepts
       such as signals, concurrency, locking, and the Linux system call API
     + Evaluated students' understanding of operating system concepts
+    + Helped students implement and debug kernel-level algorithms in C
 
     Computer Science Tutor (March 2013 - April 2015)
 
     + Helped students devise algorithms and program designs based on written
       specifications
-    + Debugged students' code
+    + Debugged students' C, C++, and assembly code
     + Helped students understand computer science topics such as data
       structures, algorithms, systems programming, theory of computation, and
       software design
@@ -79,6 +80,6 @@ Experience
       routers
     + Maintained an OpenVPN instance
     + Helped administrate a large infrastructure of Ubuntu and Solaris machines
-      using puppet and git
+      using Puppet and Git
 
 *References available upon request*
