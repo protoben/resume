@@ -1,0 +1,110 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 1.0 (1/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Matthew J. Miller
+% http://www.matthewjmiller.net/howtos/customized-cover-letter-scripts/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+
+%\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+%\includegraphics[width=1.2\linewidth]{logo.png}}} % Company/institution logo at the top left of the page
+%\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=0pt} % Slightly decrease the height of the signature field
+%\newlfmP{addrfromemail} % Print an email address under the sender's address
+%\newlfmP{addrfromphone} % Print a phone number under the sender's address
+%\PhrEmail{e-mail} % Customize the "E-mail" text
+%\PhrPhone{phone} % Customize the "Telephone" text
+
+%\lthUiuc % Print the company/institution logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Ben Hamlin} % Name
+
+\addrfrom{
+\today\\[12pt] % Date
+Ben Hamlin \\
+4831 E. Burnside \#2 \\ % Address
+Portland, OR 97215 \\
+\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu} \\
+\href{https://github.com/protoben}{github.com/protoben} \\
+(971) 732-6850
+}
+%\emailfrom{\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu}} % Email address
+%\phonefrom{(971) 732-6850} % Phone number
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Dear Recruiter,} % Greeting text
+\closeline{Thanks,} % Closing text
+
+%\nameto{Recruiter} % Addressee of the letter above the to address
+
+\addrto{
+HR Department -- Intel
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+I am contacting you with regard to the internship opportunity you advertised for
+Linux driver development. I am a Masters student in the Computer Science program
+at Portland State University. I have extensive experience with C programming and
+low-level programming on Linux, and I am enthusiastic about Linux driver
+development. I believe this would make me a good match for this internship.
+
+I have a great deal of experience programming in C. In addition to course work
+and extra-curricular projects, I worked for two years as a CS tutor at Portland
+State University, debugging students' C code and teaching them C-programming
+concepts. I have also worked as a teaching assistant in an operating systems
+class, teaching students about the algorithmic and practical components of
+kernel programming in a Linux environment. In addition, I have worked for the
+last year as a research assitant helping to design and evaluate algorithms to
+improve the performance of systems software.
+
+Although I have not participated in driver development, I am familiar with the
+Linux kernel API from coursework and personal projects, including having used
+`linux/module.h`, and I am enthusiastic about device drivers and low-level
+programming. Additionally, I believe my knowledge of operating systems concepts
+will carry over well into the domain of device drivers.
+
+I believe that my experience with operating systems and with low-level
+programming in C -- in addition to my enthusiasm for the topic -- make me well
+suited to this internship. I look forward to meeting with you to discuss the
+position further. I can be contacted by e-mail at
+\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu} or by phone at
+(971) 732-6850. I appreciate your time and consideration.
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+\end{document}

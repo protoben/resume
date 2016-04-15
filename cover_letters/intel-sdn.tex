@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 1.0 (1/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Matthew J. Miller
+% http://www.matthewjmiller.net/howtos/customized-cover-letter-scripts/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+
+%\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+%\includegraphics[width=1.2\linewidth]{logo.png}}} % Company/institution logo at the top left of the page
+%\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=0pt} % Slightly decrease the height of the signature field
+%\newlfmP{addrfromemail} % Print an email address under the sender's address
+%\newlfmP{addrfromphone} % Print a phone number under the sender's address
+%\PhrEmail{e-mail} % Customize the "E-mail" text
+%\PhrPhone{phone} % Customize the "Telephone" text
+
+%\lthUiuc % Print the company/institution logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Ben Hamlin} % Name
+
+\addrfrom{
+\today\\[12pt] % Date
+Ben Hamlin \\
+4831 E. Burnside \#2 \\ % Address
+Portland, OR 97215 \\
+\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu} \\
+\href{https://github.com/protoben}{github.com/protoben} \\
+(971) 732-6850
+}
+%\emailfrom{\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu}} % Email address
+%\phonefrom{(971) 732-6850} % Phone number
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Dear Recruiter,} % Greeting text
+\closeline{Thanks,} % Closing text
+
+%\nameto{Recruiter} % Addressee of the letter above the to address
+
+\addrto{
+HR Department -- Intel
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+I am interested in the graduate SDN/NFV intern position at Intel. I'm a Masters
+student of computer science Portland State University with a background in
+networking and systems programming in C in a Linux environment. I'm enthusiastic
+about the topic of software defined networking and network virtualization, and I
+believe my experience and enthusiasm would make me a good fit to intern at your
+company.
+
+I have extensive experience working in C in a Linux environment -- from being a
+teaching assistant for an operating systems class to modifying open-source C
+projects as a research assistant. I have also done coursework and research on
+the subject of network routing protocols, and I have a strong proficiency in
+this area. I have experience programming in a virtualized environment through
+coursework, and although I do not have work experience working on SDN or NFV
+software specifically, I have some familiarity with these topics, and I would be
+eager to learn more. Additionally, I have some experience with NFV concepts from
+helping to set up and maintain an OpenStack cluster when working at the PSU
+Computer Action Team.
+
+I feel that my background in networking and C programming in a Linux
+environment, as well as my interest in SDN and NFV  would make me well suited to
+intern at Intel. I look forward to the prospect of meeting with you to discuss
+the position further. I can be contacted by e-mail at
+\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu} or by phone at
+(971) 732-6850. I appreciate your time and consideration.
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+\end{document}

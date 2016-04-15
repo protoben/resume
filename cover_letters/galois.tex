@@ -1,0 +1,112 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 1.0 (1/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Matthew J. Miller
+% http://www.matthewjmiller.net/howtos/customized-cover-letter-scripts/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+
+%\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+%\includegraphics[width=1.2\linewidth]{logo.png}}} % Company/institution logo at the top left of the page
+%\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=0pt} % Slightly decrease the height of the signature field
+%\newlfmP{addrfromemail} % Print an email address under the sender's address
+%\newlfmP{addrfromphone} % Print a phone number under the sender's address
+%\PhrEmail{e-mail} % Customize the "E-mail" text
+%\PhrPhone{phone} % Customize the "Telephone" text
+
+%\lthUiuc % Print the company/institution logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\namefrom{Ben Hamlin} % Name
+
+\addrfrom{
+\today\\[12pt] % Date
+Ben Hamlin \\
+4831 E. Burnside \#2 \\ % Address
+Portland, OR 97215 \\
+\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu} \\
+\href{https://github.com/protoben}{github.com/protoben} \\
+(971) 732-6850
+}
+%\emailfrom{\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu}} % Email address
+%\phonefrom{(971) 732-6850} % Phone number
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+\greetto{Dear Recruiter,} % Greeting text
+\closeline{Thanks,} % Closing text
+
+%\nameto{Recruiter} % Addressee of the letter above the to address
+
+\addrto{
+HR Department -- Galois \\ % To address
+421 SW 6th Avenue, Suite 300 \\
+Portland, Oregon 97204
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{newlfm}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+I am interested in interning at Galois. I'm a graduate student of computer
+science Portland State University with a background and a lot of interest
+in cryptography, security, networking, and low-level systems programming. I'm
+also enthusiastic about the topic of formal verification of protocols and
+software. I believe my experience and enthusiasm would make me a good fit to
+intern at your company.
+
+My interest in your company was piqued by a talk on Cryptol by Aaron Tomb that I
+attended at Portland State University. I have some background in cryptography
+from a complexity theoretic perspective through course work I've done. I also
+have some background in the security side of things -- in addition the classes
+I've taken in it, I have a weekly reading group with the security professor and
+the multimedia networking professor at PSU on cryptography and security for
+multimedia systems. My research endeavors have included securing network coding
+for wireless communications and format-preserving cryptography for images and
+video. My experience also extends to low-level programming in C and assembly,
+including having been a teaching assistant in an operating systems class.
+Although I have less experience in formal verification of programs, I have done
+course work on it, and I'm excited to learn more. I'm also an avid user of
+Haskell and Git.
+
+I feel that my background in networking, cryptography, and security, and my
+interest in formal verification would make me well suited to intern at Galois. I
+look forward to the prospect of meeting with you to discuss the position
+further. I can be contacted by e-mail at
+\href{mailto:hamlinb@cs.pdx.edu}{hamlinb@cs.pdx.edu} or by phone at
+(971) 732-6850. I appreciate your time and consideration.
+
+%----------------------------------------------------------------------------------------
+
+\end{newlfm}
+\end{document}
