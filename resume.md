@@ -19,7 +19,6 @@ Education
 *   **Portland State University** (Portland, OR)
 
     + M.S. in Computer Science, June 2013 - Present
-    + M.A. in Writing, March 2009 - June 2011
     + B.A. in Linguistics, Summa Cum Laude, September 2003 - June 2008
 
 
@@ -29,7 +28,7 @@ Background
 * Proficient in the following:
     + C, Haskell, assembly (ARM and x86\_64), Git
     + Sockets programming, 802.11 / packet radio
-    + Formal specification and verification of systems (TLA+, Dafny, f\*, etc.)
+    + Security oriented reverse engineering and protocol analysis
 
 * Did research projects / coursework in the following:
     + Low-level programming on ARM
