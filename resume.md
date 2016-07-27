@@ -27,18 +27,17 @@ Background
 -----------
 
 * Proficient in the following:
-    + C, C++, assembly (ARM and x86\_64), Haskell, Git
+    + C, Haskell, assembly (ARM and x86\_64), Git
     + Sockets programming, 802.11 / packet radio
     + Formal specification and verification of systems (TLA+, Dafny, f\*, etc.)
 
 * Did research projects / coursework in the following:
+    + Low-level programming on ARM
     + JPEG, MPEG4 / H.264, SIFT
-    + Linear coding and linear network coding, the Paillier cryptosystem
-    * Computability theory, complexity theory, information theory
+    + Computability theory, complexity theory, information theory
 
 * Worked on a number of small projects related to networking, cryptography,
-  coding theory, and packet radio. They are available on my
-  [github](https://github.com/protoben).
+  and security. They are available on my [github](https://github.com/protoben).
 
 
 Experience
