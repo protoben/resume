@@ -1,0 +1,79 @@
+Ben Hamlin
+==========
+
+(971)732-6850
+<hamlinb@cs.pdx.edu>
+<protob3n@gmail.com>
+<https://github.com/protoben>
+
+
+Education
+---------
+
+*   **Portland State University** (Portland, OR)
+
+    + M.S. in Computer Science (September 2013 - June 2018)
+    + B.A. in Linguistics, Summa Cum Laude (September 2003 - June 2008)
+
+
+Research Interests
+------------------
+
+* Quantum algorithms for cryptography and cryptanalysis
+* Quantum-safe cryptographic primitives and security properties
+
+
+Research Experience
+-------------------
+
+*   **Portland State University**
+
+    Graduate Research Assistant, advised by Wu-chang Feng (June 2016 - August 2018)
+
+    + Investigated using symbolic execution to automatically generate emulated
+      network services for honeypots
+    + Compared the operation of several symbolic execution technologies such as
+      S2E, Angr, and Manticore on language interpreters
+    + Helped write NSF grant proposal for project funding
+
+    Graduate Research Assistant, advised by Wu-chi Feng (March 2015 - May 2016)
+
+    + Developed and evaluated algorithms to improve the performance of
+      multimedia systems software
+    + Modified existing open source projects such as OpenCV and JMVC to
+      perform experiments
+    + Wrote academic papers describing new algorithms and performance
+      experiments for submission to conferences
+    + Maintained Git repositories for collaborative projects
+
+
+Teaching Experience
+-------------------
+
+*   **Portland State University**
+
+    Operating Systems Teaching Assistant (January 2015 - April 2015)
+
+    + Designed labs and wrote documentation on operating systems concepts
+      such as signals, concurrency, locking, and the Linux system call API
+    + Evaluated students' understanding of operating system concepts
+    + Helped students implement and debug kernel-level algorithms in C
+
+    Computer Science Tutor (March 2013 - April 2015)
+
+    + Helped students devise algorithms and program designs based on written
+      specifications
+    + Debugged students' C, C++, and assembly code
+    + Helped students understand computer science topics such as data
+      structures, algorithms, systems programming, theory of computation, and
+      software design
+
+
+Publications
+------------
+
+* Ben Hamlin, Wuchi Feng, Ryan Feng. "ISIFT: Extracting Incremental Results from
+  SIFT." *Multimedia Systems (MMSys).* 2018.
+
+
+*References available upon request*
