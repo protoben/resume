@@ -6,13 +6,17 @@ PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H ${LATEX_HEADER} \
 PP=python resume.py
 PPFLAGS=--no-gravatar
 
-SRCS=resume.md
+SRCS=resume.md cv.md
 PDFS=${SRCS:.md=.pdf}
 HTML=${SRCS:.md=.html}
 LATEX_TEMPLATE=template.tex
 LATEX_HEADER=header.tex
 
 DATE:=${shell date '+%d-%m-%Y %H:%m'}
+
+USER=hamlinb
+HOST=ada.cs.pdx.edu
+DIR=/home/hamlinb/solaris/public_html
 
 all: pdf html push upload
 
@@ -21,10 +25,8 @@ push: ${SRCS}
 	-git commit -m "Contents updated ${DATE}" && git push
 
 upload: pdf html
-	scp resume.html resume.css resume.pdf \
-	  hamlinb@cs.pdx.edu:/home/hamlinb/solaris/public_html/
-	ssh hamlinb@cs.pdx.edu chmod 644 \
-	  /home/hamlinb/solaris/public_html/resume.*
+	scp resume.html resume.css resume.pdf cv.html cv.css cv.pdf ${USER}@${HOST}:${DIR}/
+	ssh ${USER}@${HOST} chmod 644 ${DIR}/resume.* ${DIR}/cv.*
 
 nopush: pdf html
 
