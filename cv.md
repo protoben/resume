@@ -10,6 +10,10 @@ Ben Hamlin
 Education
 ---------
 
+*   **Texas A&M University** (College Station, TX)
+
+    + Ph.D. in Computer Science (September 2018 - Present)
+
 *   **Portland State University** (Portland, OR)
 
     + M.S. in Computer Science (September 2013 - June 2018)
@@ -25,6 +29,14 @@ Research Interests
 
 Research Experience
 -------------------
+
+*   **Texas A&M University**
+
+    Graduate Research Assistant, advised by Fang Song (September 2018 - Present)
+
+    + Developed new provable quantum security properties for hash functions
+    + Examined the security of classical hash functions with respect to
+      quantum-safe properties
 
 *   **Portland State University**
 
@@ -72,6 +84,8 @@ Teaching Experience
 Publications
 ------------
 
+* Ben Hamlin, Fang Song. "Quantum security of hash functions and
+  property-preservation of iterated hashing." Not yet published.
 * Ben Hamlin, Wuchi Feng, Ryan Feng. "ISIFT: Extracting Incremental Results from
   SIFT." *Multimedia Systems (MMSys).* 2018.
 
