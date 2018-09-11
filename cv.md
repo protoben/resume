@@ -86,7 +86,7 @@ Publications
 ------------
 
 * Ben Hamlin, Fang Song. "Quantum security of hash functions and
-  property-preservation of iterated hashing." Not yet published.
+  property-preservation of iterated hashing." *Not yet published.*
 * Ben Hamlin, Wuchi Feng, Ryan Feng. "ISIFT: Extracting Incremental Results from
   SIFT." *Multimedia Systems (MMSys).* 2018.
 
