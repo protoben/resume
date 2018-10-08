@@ -2,7 +2,7 @@ Ben Hamlin
 ==========
 
 (971)732-6850
-<hamlinb@cs.pdx.edu>
+<hamlinb@tamu.edu>
 <protob3n@gmail.com>
 <https://github.com/protoben>
 
@@ -26,6 +26,7 @@ Research Interests
 
 * Quantum algorithms for cryptography and cryptanalysis
 * Quantum-safe cryptographic primitives and security properties
+* Design and implementation of provably secure cryptography and network software
 
 
 Research Experience
@@ -80,6 +81,18 @@ Teaching Experience
     + Helped students understand computer science topics such as data
       structures, algorithms, systems programming, theory of computation, and
       software design
+
+
+Industry Experience
+-------------------
+
+*   **Formaltech Inc.**
+
+    Software Engineer (July 2016 - Present)
+
+    + Helped develop and debug a low-interaction honeypot written in Haskell
+    + Added functionality to a Xen microkernel
+    + Debugged TCP-stack internals
 
 
 Publications

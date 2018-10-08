@@ -10,23 +10,29 @@ Ben Hamlin
 Objective
 ---------
 
-To apply a background in theory to network and systems programming.
+To apply a background in theory to provably secure cryptography and network
+software
 
 
 Education
 ---------
 
+*   **Texas A&M University** (College Station, TX)
+
+    + Ph.D. in Computer Science (September 2018 - Present)
+
 *   **Portland State University** (Portland, OR)
 
-    + M.S. in Computer Science, June 2013 - Present
-    + B.A. in Linguistics, Summa Cum Laude, September 2003 - June 2008
+    + Ph.D. in Computer Science (September 2016 - Present)
+    + M.S. in Computer Science (September 2013 - June 2018)
+    + B.A. in Linguistics, Summa Cum Laude (September 2003 - June 2008)
 
 
 Background
 -----------
 
 * Proficient in the following:
-    + C, Haskell, assembly (ARM and x86\_64), Git
+    + C, Haskell, assembly (ARM and x86\_64), Git, Nix
     + Sockets programming, 802.11 / packet radio
     + Security oriented reverse engineering and protocol analysis
 
@@ -42,7 +48,31 @@ Background
 Experience
 ----------
 
+*   **Texas A&M University**
+
+    Graduate Research Assistant, advised by Fang Song (September 2018 - Present)
+
+    + Developed new provable quantum security properties for hash functions
+    + Examined the security of classical hash functions with respect to
+      quantum-safe properties
+
+*   **Formaltech Inc.**
+
+    Software Engineer (July 2016 - Present)
+
+    + Helped develop and debug a low-interaction honeypot written in Haskell
+    + Added functionality to a Xen microkernel
+    + Debugged TCP-stack internals
+
 *   **Portland State University**
+
+    Graduate Research Assistant, advised by Wu-chang Feng (June 2016 - August 2018)
+
+    + Investigated using symbolic execution to automatically generate emulated
+      network services for honeypots
+    + Compared the operation of several symbolic execution technologies such as
+      S2E, Angr, and Manticore on language interpreters
+    + Helped write NSF grant proposal for project funding
 
     Computer Science Research Assistant (April 2015 - Present)
 
