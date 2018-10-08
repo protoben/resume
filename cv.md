@@ -29,6 +29,18 @@ Research Interests
 * Design and implementation of provably secure cryptography and network software
 
 
+Industry Experience
+-------------------
+
+*   **Formaltech Inc.**
+
+    Software Engineer (July 2016 - Present)
+
+    + Helped develop and debug a low-interaction honeypot written in Haskell
+    + Added functionality to a Xen microkernel
+    + Debugged TCP-stack internals
+
+
 Research Experience
 -------------------
 
@@ -81,18 +93,6 @@ Teaching Experience
     + Helped students understand computer science topics such as data
       structures, algorithms, systems programming, theory of computation, and
       software design
-
-
-Industry Experience
--------------------
-
-*   **Formaltech Inc.**
-
-    Software Engineer (July 2016 - Present)
-
-    + Helped develop and debug a low-interaction honeypot written in Haskell
-    + Added functionality to a Xen microkernel
-    + Debugged TCP-stack internals
 
 
 Publications
