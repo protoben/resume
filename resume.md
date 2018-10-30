@@ -2,7 +2,6 @@ Ben Hamlin
 ==========
 
 (971)732-6850
-<hamlinb@cs.pdx.edu>
 <protob3n@gmail.com>
 <https://github.com/protoben>
 
@@ -10,8 +9,8 @@ Ben Hamlin
 Objective
 ---------
 
-To apply a background in theory to provably secure cryptography and network
-software
+To apply a background in theory and provable security to networking, systems,
+and security software
 
 
 Education
@@ -36,13 +35,13 @@ Background
     + Sockets programming, 802.11 / packet radio
     + Security oriented reverse engineering and protocol analysis
 
-* Did research projects / coursework in the following:
-    + Low-level programming on ARM
+* Did research projects in the following:
+    + Quantum algorithms and quantum, post-quantum, and classical cryptography
+    + Protocol emulation for honeypots and Symbolic execution
     + JPEG, MPEG4 / H.264, SIFT
-    + Computability theory, complexity theory, information theory
 
-* Worked on a number of small projects related to networking, cryptography,
-  and security. They are available on my [github](https://github.com/protoben).
+* Worked on a number of projects related to networking, cryptography, and
+  security. They are available on my [github](https://github.com/protoben).
 
 
 Experience
@@ -61,8 +60,10 @@ Experience
     Software Engineer (July 2016 - Present)
 
     + Helped develop and debug a low-interaction honeypot written in Haskell
-    + Added functionality to a Xen microkernel
-    + Debugged TCP-stack internals
+    + Added functionality to a Xen microkernel and debugged TCP-stack internals
+    + Developed software in collaboration with others using Git, Nix, and Jira
+    + Wrote a Haskell library to interface with RTNetlink, which is now open
+      source
 
 *   **Portland State University**
 
@@ -76,7 +77,7 @@ Experience
 
     Computer Science Research Assistant (April 2015 - Present)
 
-    + Helped develop and evaluate algorithms to improve the performance of
+    + Developed and evaluated algorithms to improve the performance of
       multimedia systems software
     + Modified existing open source projects such as OpenCV and JMVC to
       perform experiments
