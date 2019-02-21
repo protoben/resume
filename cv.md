@@ -24,7 +24,7 @@ Education
 Research Interests
 ------------------
 
-* Quantum algorithms for cryptography and cryptanalysis
+* Quantum algorithms and quantum information
 * Quantum-safe cryptographic primitives and security properties
 * Design and implementation of provably secure cryptography and network software
 
@@ -89,7 +89,7 @@ Teaching Experience
 
     + Helped students devise algorithms and program designs based on written
       specifications
-    + Debugged students' C, C++, and assembly code
+    + Debugged students' C, C++, Java, and assembly code
     + Helped students understand computer science topics such as data
       structures, algorithms, systems programming, theory of computation, and
       software design
@@ -99,9 +99,21 @@ Publications
 ------------
 
 * Ben Hamlin, Fang Song. "Quantum security of hash functions and
-  property-preservation of iterated hashing." *Not yet published.*
+  property-preservation of iterated hashing." *Tenth International Conference on
+  Post-quantum Cryptography (PQCrypto).* 2019.
 * Ben Hamlin, Wuchi Feng, Ryan Feng. "ISIFT: Extracting Incremental Results from
-  SIFT." *Multimedia Systems (MMSys).* 2018.
+  SIFT." *ACM Multimedia Systems Conference (MMSys).* 2018.
+* Konstantin Macarenco, Kristina Frye, Benjamin Hamlin, Karen L. Karavanic. "The
+  Effects of System Management Interrupts on Multithreaded, Hyper-Threaded, and
+  MPI Applications." *Sixth International Workshop on Parallel Software Tools
+  and Tool Infrastructures (PSTI).* 2016.
+
+
+Posters/Presentations
+---------------------
+
+* Ben Hamlin, Fang Song. "Quantum security of hash functions (poster)." *Quantum
+  Information Processing (QIP).* 2019.
 
 
 *References available upon request*
