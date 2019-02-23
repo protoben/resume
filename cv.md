@@ -34,7 +34,7 @@ Industry Experience
 
 *   **Formaltech Inc.**
 
-    Software Engineer (July 2016 - Present)
+    Software Engineer (July 2016 - November 2018)
 
     + Helped develop and debug a low-interaction honeypot written in Haskell
     + Added functionality to a Xen microkernel
@@ -46,7 +46,7 @@ Research Experience
 
 *   **Texas A&M University**
 
-    Graduate Research Assistant, advised by Fang Song (September 2018 - Present)
+    Graduate Assistant Researcher, advised by Fang Song (September 2018 - Present)
 
     + Developed new provable quantum security properties for hash functions
     + Examined the security of classical hash functions with respect to
