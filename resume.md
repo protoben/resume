@@ -32,7 +32,7 @@ Background
 
 * Proficient in the following:
     + C, Haskell, assembly (ARM and x86\_64), Git, Nix
-    + Sockets programming, 802.11 / packet radio
+    + Sockets programming, networking internals, Linux networking, 802.11 (wifi)
     + Security oriented reverse engineering and protocol analysis
 
 * Did research projects in the following:
@@ -57,7 +57,7 @@ Experience
 
 *   **Formaltech Inc.**
 
-    Software Engineer (July 2016 - Present)
+    Software Engineer (July 2016 - December 2018)
 
     + Helped develop and debug a low-interaction honeypot written in Haskell
     + Added functionality to a Xen microkernel and debugged TCP-stack internals
@@ -75,7 +75,7 @@ Experience
       S2E, Angr, and Manticore on language interpreters
     + Helped write NSF grant proposal for project funding
 
-    Computer Science Research Assistant (April 2015 - Present)
+    Computer Science Research Assistant (April 2015 - May 2016)
 
     + Developed and evaluated algorithms to improve the performance of
       multimedia systems software
