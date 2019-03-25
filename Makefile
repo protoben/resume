@@ -3,7 +3,7 @@ HTMLFLAGS=-f markdown -t html -c resume.css
 PDFFLAGS=-f markdown --template=${LATEX_TEMPLATE} -H ${LATEX_HEADER} \
 	 -V colorlinks=true -V linkcolor=magenta
 
-PP=python resume.py
+PP=python2 resume.py
 PPFLAGS=--no-gravatar
 
 SRCS=resume.md cv.md
