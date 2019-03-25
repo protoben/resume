@@ -9,8 +9,8 @@ Ben Hamlin
 Objective
 ---------
 
-To apply a background in theory and provable security to networking, systems,
-and security software
+To apply a background in security and cryptography to developing secure network
+and systems software.
 
 
 Education
@@ -57,7 +57,7 @@ Experience
 
 *   **Formaltech Inc.**
 
-    Software Engineer (July 2016 - December 2018)
+    Software Engineer (July 2016 - December 2018, March 2019)
 
     + Helped develop and debug a low-interaction honeypot written in Haskell
     + Added functionality to a Xen microkernel and debugged TCP-stack internals
