@@ -57,7 +57,7 @@ Experience
 
 *   **Formaltech Inc.**
 
-    Software Engineer (July 2016 - December 2018, March 2019)
+    Software Engineer (July 2016 - Present)
 
     + Helped develop and debug a low-interaction honeypot written in Haskell
     + Added functionality to a Xen microkernel and debugged TCP-stack internals
