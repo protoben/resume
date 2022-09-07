@@ -18,7 +18,7 @@ USER=hamlinb
 HOST=ada.cs.pdx.edu
 DIR=/home/hamlinb/solaris/public_html
 
-all: pdf html push upload
+all: pdf html push
 
 push: ${SRCS}
 	-git add ${SRCS}
