@@ -2,7 +2,7 @@ Ben Hamlin
 ==========
 
 (971)732-6850
-<hamlinb@tamu.edu>
+<hamlinb@pdx.edu>
 <protob3n@gmail.com>
 <https://github.com/protoben>
 
@@ -10,13 +10,9 @@ Ben Hamlin
 Education
 ---------
 
-*   **Texas A&M University** (College Station, TX)
-
-    + Ph.D. in Computer Science (September 2018 - Present)
-
 *   **Portland State University** (Portland, OR)
 
-    + Ph.D. in Computer Science (September 2016 - Present)
+    + Ph.D. in Computer Science (September 2018 - Present)
     + M.S. in Computer Science (September 2013 - June 2018)
     + B.A. in Linguistics, Summa Cum Laude (September 2003 - June 2008)
 
@@ -25,28 +21,42 @@ Research Interests
 ------------------
 
 * Quantum algorithms and quantum information
+* Computer-aided proof frameworks for physical systems
 * Quantum-safe cryptographic primitives and security properties
-* Design and implementation of provably secure cryptography and network software
+* Design and implementation of provably secure cryptography
 
 
 Industry Experience
 -------------------
 
+*   **Galois Inc.**
+
+    Researcher (August 2019 - Present)
+
+    + Implemented cryptosystems in Rust, including zero-knowledge proofs,
+      post-quantum signatures, and verifiable computation
+    + Developed a provable security framework for cryptographic hardware
+      obfuscation, now published in TCHES (see "Papers", below)
+    + Wrote proposals for AFRL and NSF research grants
+    + Collaborated with other researchers to meet the goals of DARPA and
+      AFRL programs, producing open-source software and publications
+
 *   **Formaltech Inc.**
 
     Software Engineer (July 2016 - November 2018)
 
-    + Helped develop and debug a low-interaction honeypot written in Haskell
-    + Added functionality to a Xen microkernel
-    + Debugged TCP-stack internals
+    + Developed and maintained a low-interaction honeypot written in Haskell
+    + Developed and maintained a Xen microkernel a custom TCP/IP stack
+    + Developed software in collaboration with others using Git, Nix, and Jira
+    + Wrote an open-source Haskell library to interface with Linux RTNetlink
 
 
-Research Experience
--------------------
+Academic Research Experience
+----------------------------
 
 *   **Texas A&M University**
 
-    Graduate Assistant Researcher, advised by Fang Song (September 2018 - Present)
+    Graduate Assistant Researcher, advised by Fang Song (September 2018 - June 2019)
 
     + Developed new provable quantum security properties for hash functions
     + Examined the security of classical hash functions with respect to
@@ -98,22 +108,25 @@ Teaching Experience
 Publications
 ------------
 
-* Ben Hamlin, Fang Song. "Quantum security of hash functions and
+* Peter Beerel, Marios Georgiou, **Ben Hamlin**, Alex J. Malozemoff, Pierluigi
+  Nuzzo. "Towards a Formal Treatment of Logic Locking." *IACR Transactions on
+  Cryptographic Hardware and Embedded Systems (TCHES).* 2022(2).
+* **Ben Hamlin**, Fang Song. "Quantum security of hash functions and
   property-preservation of iterated hashing." *Tenth International Conference on
   Post-quantum Cryptography (PQCrypto).* 2019.
-* Ben Hamlin, Wuchi Feng, Ryan Feng. "ISIFT: Extracting Incremental Results from
-  SIFT." *ACM Multimedia Systems Conference (MMSys).* 2018.
-* Konstantin Macarenco, Kristina Frye, Benjamin Hamlin, Karen L. Karavanic. "The
-  Effects of System Management Interrupts on Multithreaded, Hyper-Threaded, and
-  MPI Applications." *Sixth International Workshop on Parallel Software Tools
-  and Tool Infrastructures (PSTI).* 2016.
+* **Ben Hamlin**, Wuchi Feng, Ryan Feng. "ISIFT: Extracting Incremental Results
+  from SIFT." *ACM Multimedia Systems Conference (MMSys).* 2018.
+* Konstantin Macarenco, Kristina Frye, **Benjamin Hamlin**, Karen L. Karavanic.
+  "The Effects of System Management Interrupts on Multithreaded, Hyper-Threaded,
+  and MPI Applications." *Sixth International Workshop on Parallel Software
+  Tools and Tool Infrastructures (PSTI).* 2016.
 
 
 Posters/Presentations
 ---------------------
 
-* Ben Hamlin, Fang Song. "Quantum security of hash functions (poster)." *Quantum
-  Information Processing (QIP).* 2019.
+* **Ben Hamlin**, Fang Song. "Quantum security of hash functions (poster)."
+  *Quantum Information Processing (QIP).* 2019.
 
 
 *References available upon request*

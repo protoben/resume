@@ -6,23 +6,12 @@ Ben Hamlin
 <https://github.com/protoben>
 
 
-Objective
----------
-
-To apply a background in security and cryptography to developing secure network
-and systems software.
-
-
 Education
 ---------
 
-*   **Texas A&M University** (College Station, TX)
-
-    + Ph.D. in Computer Science (September 2018 - Present)
-
 *   **Portland State University** (Portland, OR)
 
-    + Ph.D. in Computer Science (September 2016 - Present)
+    + Ph.D. in Computer Science (September 2018 - Present)
     + M.S. in Computer Science (September 2013 - June 2018)
     + B.A. in Linguistics, Summa Cum Laude (September 2003 - June 2008)
 
@@ -31,25 +20,37 @@ Background
 -----------
 
 * Proficient in the following:
-    + C, Haskell, assembly (ARM and x86\_64), Git, Nix
-    + Sockets programming, networking internals, Linux networking, 802.11 (wifi)
-    + Security oriented reverse engineering and protocol analysis
+    + Rust, C, Haskell, assembly (ARM and x86\_64), Git, Nix, Linux, Bash, Make, LaTeX
+    + Securely implementing post-quantum signature and zero-knowledge proof systems
+    + Sockets programming, network stack internals, Linux networking, 802.11 (wifi)
 
-* Did research projects in the following:
-    + Quantum algorithms and quantum, post-quantum, and classical cryptography
-    + Protocol emulation for honeypots and Symbolic execution
-    + JPEG, MPEG4 / H.264, SIFT
+* Did research in the following:
+    + Security definitions for and quantum, post-quantum, and classical cryptography
+    + Applying computer-aided proof techniques to physical systems
+    + Designing, implementing, and optimizing cryptosystems
 
-* Worked on a number of projects related to networking, cryptography, and
-  security. They are available on my [github](https://github.com/protoben).
+* Worked on a number of projects related to cryptography, networking, and
+  security. Some are available on my [github](https://github.com/protoben).
 
 
 Experience
 ----------
 
+*   **Galois Inc.**
+
+    Researcher (August 2019 - Present)
+
+    + Implemented cryptosystems in Rust, including zero-knowledge proofs,
+      post-quantum signatures, and verifiable computation
+    + Developed a provable security framework for cryptographic hardware
+      obfuscation, now published in TCHES (see "Papers", below)
+    + Wrote proposals for AFRL and NSF research grants
+    + Collaborated with other researchers to meet the goals of DARPA and
+      AFRL programs, producing open-source software and publications
+
 *   **Texas A&M University**
 
-    Graduate Research Assistant, advised by Fang Song (September 2018 - Present)
+    Graduate Research Assistant, advised by Fang Song (September 2018 - June 2019)
 
     + Developed new provable quantum security properties for hash functions
     + Examined the security of classical hash functions with respect to
@@ -57,13 +58,12 @@ Experience
 
 *   **Formaltech Inc.**
 
-    Software Engineer (July 2016 - Present)
+    Software Engineer (July 2016 - November 2018)
 
-    + Helped develop and debug a low-interaction honeypot written in Haskell
-    + Added functionality to a Xen microkernel and debugged TCP-stack internals
+    + Developed and maintained a low-interaction honeypot written in Haskell
+    + Developed and maintained a Xen microkernel a custom TCP/IP stack
     + Developed software in collaboration with others using Git, Nix, and Jira
-    + Wrote a Haskell library to interface with RTNetlink, which is now open
-      source
+    + Wrote an open-source Haskell library to interface with Linux RTNetlink
 
 *   **Portland State University**
 
@@ -101,7 +101,6 @@ Experience
       structures, algorithms, systems programming, theory of computation, and
       software design
 
-
 *   **PSU Computer Action Team**
 
     Network / System Administrator (September 2013 - June 2014)
@@ -111,5 +110,30 @@ Experience
     + Maintained an OpenVPN instance
     + Helped administrate a large infrastructure of Ubuntu and Solaris machines
       using Puppet and Git
+
+
+Publications
+------------
+
+* Peter Beerel, Marios Georgiou, **Ben Hamlin**, Alex J. Malozemoff, Pierluigi
+  Nuzzo. "Towards a Formal Treatment of Logic Locking." *IACR Transactions on
+  Cryptographic Hardware and Embedded Systems (TCHES).* 2022(2).
+* **Ben Hamlin**, Fang Song. "Quantum security of hash functions and
+  property-preservation of iterated hashing." *Tenth International Conference on
+  Post-quantum Cryptography (PQCrypto).* 2019.
+* **Ben Hamlin**, Wuchi Feng, Ryan Feng. "ISIFT: Extracting Incremental Results
+  from SIFT." *ACM Multimedia Systems Conference (MMSys).* 2018.
+* Konstantin Macarenco, Kristina Frye, **Benjamin Hamlin**, Karen L. Karavanic.
+  "The Effects of System Management Interrupts on Multithreaded, Hyper-Threaded,
+  and MPI Applications." *Sixth International Workshop on Parallel Software
+  Tools and Tool Infrastructures (PSTI).* 2016.
+
+
+Posters/Presentations
+---------------------
+
+* **Ben Hamlin**, Fang Song. "Quantum security of hash functions (poster)."
+  *Quantum Information Processing (QIP).* 2019.
+
 
 *References available upon request*
